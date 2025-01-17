@@ -160,6 +160,7 @@
             buttonHelp.TabIndex = 3;
             buttonHelp.Text = "Справка";
             buttonHelp.UseVisualStyleBackColor = false;
+            buttonHelp.Click += buttonHelp_Click;
             // 
             // buttonDone
             // 
