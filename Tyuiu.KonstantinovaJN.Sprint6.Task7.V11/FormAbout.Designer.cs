@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.KonstantinovaJN.Sprint6.Task6.V13
+﻿namespace Tyuiu.KonstantinovaJN.Sprint6.Task7.V11
 {
     partial class FormAbout
     {
@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout));
             pictureBoxAvatar = new PictureBox();
-            buttonOk = new Button();
             labelInfo = new Label();
+            buttonOk = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBoxAvatar).BeginInit();
             SuspendLayout();
             // 
@@ -42,20 +42,8 @@
             pictureBoxAvatar.Location = new Point(12, 12);
             pictureBoxAvatar.Name = "pictureBoxAvatar";
             pictureBoxAvatar.Size = new Size(162, 202);
-            pictureBoxAvatar.TabIndex = 1;
+            pictureBoxAvatar.TabIndex = 2;
             pictureBoxAvatar.TabStop = false;
-            // 
-            // buttonOk
-            // 
-            buttonOk.BackColor = SystemColors.Control;
-            buttonOk.Location = new Point(481, 200);
-            buttonOk.Name = "buttonOk";
-            buttonOk.Size = new Size(94, 29);
-            buttonOk.TabIndex = 2;
-            buttonOk.Text = "Ок";
-            buttonOk.UseVisualStyleBackColor = false;
-            buttonOk.Click += buttonOk_Click;
-            buttonOk.MouseClick += buttonOk_Click;
             // 
             // labelInfo
             // 
@@ -63,22 +51,30 @@
             labelInfo.Location = new Point(180, 12);
             labelInfo.Name = "labelInfo";
             labelInfo.Size = new Size(395, 180);
-            labelInfo.TabIndex = 3;
+            labelInfo.TabIndex = 4;
             labelInfo.Text = resources.GetString("labelInfo.Text");
+            // 
+            // buttonOk
+            // 
+            buttonOk.BackColor = SystemColors.Control;
+            buttonOk.Location = new Point(481, 201);
+            buttonOk.Name = "buttonOk";
+            buttonOk.Size = new Size(94, 29);
+            buttonOk.TabIndex = 5;
+            buttonOk.Text = "Ок";
+            buttonOk.UseVisualStyleBackColor = false;
+            buttonOk.Click += buttonOk_Click;
+            buttonOk.MouseClick += buttonOk_Click;
             // 
             // FormAbout
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(586, 241);
-            Controls.Add(labelInfo);
+            ClientSize = new Size(584, 242);
             Controls.Add(buttonOk);
+            Controls.Add(labelInfo);
             Controls.Add(pictureBoxAvatar);
-            FormBorderStyle = FormBorderStyle.FixedDialog;
-            MaximizeBox = false;
-            MinimizeBox = false;
             Name = "FormAbout";
-            StartPosition = FormStartPosition.CenterScreen;
             Text = "О программе";
             ((System.ComponentModel.ISupportInitialize)pictureBoxAvatar).EndInit();
             ResumeLayout(false);
@@ -87,10 +83,8 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private PictureBox pictureBox1;
         private PictureBox pictureBoxAvatar;
-        private Button buttonOk;
         private Label labelInfo;
+        private Button buttonOk;
     }
 }
