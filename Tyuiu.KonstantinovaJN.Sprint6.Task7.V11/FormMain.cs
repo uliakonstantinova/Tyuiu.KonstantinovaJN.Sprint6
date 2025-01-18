@@ -7,7 +7,6 @@ namespace Tyuiu.KonstantinovaJN.Sprint6.Task7.V11
         public FormMain()
         {
             InitializeComponent();
-            
         }
         static int rows;
         static int columns;
